@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Watclist</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- cdn icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- fonts  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+     <link rel="icon" type="images/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsGX7j2RoCgxCjT2USdv73Hw7DwB4Vlt7BXu8C5r1sfQ&s" />
+     
+</head>
+<body>
+
+    <div class="header">
+        <h1>Find Your Flim</h1>
+
+    <!-- navigation -->
+        <a href="./watchList.html">
+        <h4>My Watchlist</h4>
+        </a>
+        </div>
+     
+        <!-- search bar -->
+        <div class="search-bar">
+            <div>
+            <i id='icon-search' class="fa-solid fa-magnifying-glass"></i>
+            <input  type="search" id="search" placeholder="search for a movie" >
+        </div>
+        <button id="submitBtn">submit</button>
+        </div>
+
+        <!-- initial icon -->
+        <div class="backgroundImg" id="bg"></div>
+
+        <!-- false response -->
+        <div class="falseResponse" id="falseResponse"><h3>Unable to find what you're lookig for.Please try another search</h3></div>
+         
+
+        <div class="content">
+            <div class="poster" id="poster"></div>
+            <div class="details" id="details"></div>
+        </div>
+
+        
+<script src="script.js" type="module"></script>
+
+</body>
+</html>
