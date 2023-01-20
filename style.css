@@ -46,7 +46,9 @@ button {
 
 }
 .search-bar > i {
-   color: #9CA3AF
+   color: #9CA3AF;
+    cursor:pointer;
+       
 }
 .content {
     display: flex;
